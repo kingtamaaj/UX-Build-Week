@@ -1,0 +1,112 @@
+body 
+{
+   background: url('../img/action-athlete-audience-1839834.jpg' );
+   background-repeat: no-repeat; 
+   background-size: 50%;
+   background-position-x: center;
+   background-attachment: fixed;
+
+    @media @mobile {
+        background-size: 57%;
+    }
+   
+//    background-color: @blackish;
+   
+}
+
+
+
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    width: 100%;
+    // padding: 16px; 
+   
+   
+//CTA Text
+    .cta-text {
+        display: flex;
+        flex-direction: column;
+        margin: 800px 0 400px 0;
+        
+        
+        @media @tablet {
+            margin: 400px 0 200px 0;
+        }
+
+        @media @mobile {
+            margin: 300px 0 80px 0;
+        }
+
+        h1 {
+        text-align: center;
+        text-shadow: 6px 2px 5px @red;
+       
+        }
+       
+        
+        h2 {
+            text-align: center;
+            text-shadow: 3px 2px 2px @red;
+        }
+    }
+
+    .app-description {
+        background: @red;
+        color: @off-white;
+
+        p {
+            color: @blackish;
+        }
+    }
+    
+
+//CTA Button
+
+
+    .btn {
+     .button();
+     font-size: 12px;
+     text-align: center;
+    }
+
+    .cta-btn {
+        display: flex;
+        justify-content: center;
+        .cta-button();
+        font-size: 20px;
+        text-align: center;
+    }
+
+    // Btn decoration
+
+    a {
+        text-decoration: none;
+    }
+
+//    Developers Page
+ 
+    .developers {
+        margin-top: 100px;
+        text-align: center;
+        background: white;
+    }
+
+    .mainimg {
+        margin: 50px 200px;
+
+        @media @mobile {
+            margin: 50px 100px;
+            width: 250px;
+            height: 250px;
+        }
+    }
+    #tamaaj-pic {
+        width: 300px;
+        height: 300px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
